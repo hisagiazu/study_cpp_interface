@@ -3,7 +3,9 @@
 #include "interface.h"
 #include "test.h"
 
+using namespace std;
+
 void CTest::PrintTest()
 {
-    std::cout << "Hello World!" << std::endl;
+    cout << "Hello World!" << endl;
 }
