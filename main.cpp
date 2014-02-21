@@ -1,16 +1,7 @@
 #include <iostream>
 
-class ITest
-{
-public:
-    virtual void PrintTest() = 0;
-};
-
-class CTest:public ITest
-{
-public:
-    void PrintTest();
-};
+#include "interface.h"
+#include "main.h"
 
 void CTest::PrintTest()
 {
