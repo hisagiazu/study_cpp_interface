@@ -1,5 +1,5 @@
-#include "interface.h"
-#include "test.h"
+#include "test/interface.h"
+#include "test/test.h"
 
 int main()
 {
