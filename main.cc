@@ -1,11 +1,17 @@
-#include "test/interface.h"
+#include <string>
+
+#include "test/test_interface.h"
 #include "test/test.h"
+
+using namespace std;
 
 int main()
 {
-    ITest* test = new CTest();
+    string str("Hello World!!");
+
+    TestInterface* test = new Test(str);
     
-    test->PrintTest();
+    test->Print();
 
     return 0;
 }

@@ -1,10 +1,10 @@
 #ifndef INCLUDED_INTERFACE
 #define INCLUDED_INTERFACE
 
-class ITest
+class TestInterface
 {
 public:
-    virtual void PrintTest() = 0;
+    virtual void Print() = 0;
 };
 
 #endif

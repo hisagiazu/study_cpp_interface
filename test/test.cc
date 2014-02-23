@@ -1,12 +1,10 @@
-#include <iostream>
-
-#include "interface.h"
 #include "test.h"
 
-using namespace std;
-
-void CTest::PrintTest()
+Test::Test(string str):m_str(str)
 {
-    cout << "Hello World!" << endl;
-    cout << "Study C++ Interface!" << endl;
+}
+
+void Test::Print()
+{
+    cout << m_str << endl;
 }
